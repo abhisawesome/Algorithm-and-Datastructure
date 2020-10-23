@@ -25,8 +25,6 @@ def bfs(graph,root):
 
             # Get the adjacent vertex
             adjacentNode = graph[node]
-
-            print({node:adjacentNode})
             # Add the adjacent vertex to queue
             for adNode in adjacentNode:
                 queue.append(adNode)
